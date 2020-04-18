@@ -10,8 +10,8 @@ def sendMail():
     # General settings
     msg['from'] = 'form@example.com'
     msg['to'] = 'to@example.com'
-    msg['subject'] = 'user login'
-    message = 'User log in system'
+    msg['subject'] = 'your_subject'
+    message = 'your_messages'
 
     # add in the message body
     msg.attach(MIMEText(message, 'plain'))
